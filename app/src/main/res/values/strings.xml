@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EventsReminder</string>
+    <string name="welcome_text_main_activity_default">Welcome!</string>
+    <string name="file_name">savedEvents</string>
+    <string-array name="color_choice_array">
+        <item>No selected</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Red</item>
+    </string-array>
+</resources>

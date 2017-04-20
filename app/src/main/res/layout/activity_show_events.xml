@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showEventsLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adam.eventsreminder.ShowEventsActivity"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25sp"
+    android:text="Events:"
+    android:gravity="center"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:paddingLeft="10sp"
+    android:fontFamily="sans-serif-condensed"
+    android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/eventsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    </ListView>
+
+    <Button
+        android:id="@+id/deleteButton"
+        style="?attr/buttonBarPositiveButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete all events"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+</LinearLayout>
